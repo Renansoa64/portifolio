@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixador">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <h1 width="50" height="50">Meu Portfólio</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Apresentação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="menu" aria-expanded="false">Projetos</a>
+
+          <div class="menu">
+            <a class="menu-item" href="proj_api.html">API</a>
+            <a class="menu-item" href="proj_pess.html">Pessoal</a>
+            <a class="menu-item" href="proj_prof.html">Profissional</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Informações Curriculares</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="p-5 text-center bg-image rounded-3 encaixador" style="
+    background-image: url('img/papel.png');
+    height: 150px;
+  ">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        <h1 class="mb-3">Papercraft</h1>
+        <h4 class="mb-3">De papeis para esculturas!</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<h1 class="mb-3 text-center">Como tudo começou:</h1>
+<p class="text-center">Desde sempre eu fui sempre criativo e muito fisurado em coisas criadas a por pessoas feitas a mão, de pessoas para pessoas, assim que descobri desse mundo, sobre essa comunidade enorme e incrivel que é esse ramo do papercraft. Comecei a fazer meus primeiros modelos em 2020 e depois disso eu não parei.</p>
+<br>
+<h1 class="mb-3 text-center">Alguns projetos concluidos:</h1>
+
+<!-- Carrosel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicadores -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- Slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/neco arc.jpg" alt="Neco Arc" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/withered chica.jpg" alt="Withered Chica" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/godzilla.jpg" alt="Godzilla" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tie fighter.jpg" alt="Tie Fighter" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+  </div>
+</div>
+
+<br>
+<h1 class="mb-3 text-center">Projetos em andamento:</h1>
+<!-- Carrosel -->
+<div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicadores -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- Slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/kratos.png" alt="Kratos" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/mario.jpg" alt="Mario" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/rl dbz.jpg" alt="Goku e Buu" class="d-block" style="width: 500px; margin: auto;">
+    </div>
+  </div>
+</div>
+<br>
+<h2>Inspiração:</h2>
+    <footer class="container py-5">
+      <div>
+          <a class="bi bi-instagram btn btn-outline-danger" href="https://www.instagram.com/paperartsoficial/">PaperArtOficial</a>
+      </div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+
+</html>
